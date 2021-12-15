@@ -49,6 +49,16 @@ namespace PartialViewsProject.Pages
                 " and maybe find a little romance with the coder who conceived him."
             });
 
+            films.Add(new Films()
+            {
+                Title = "Avengers: Endgame",
+                Duration = "3h 2m",
+                Description = "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his" +
+                " oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America " +
+                "and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos " +
+                "-- the evil demigod who decimated the planet and the universe"
+            });
+
         }
 
         public void OnGet()
