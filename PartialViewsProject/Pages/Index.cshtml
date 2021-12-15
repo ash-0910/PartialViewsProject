@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    @foreach(PartialViewsProject.Models.Films films in Model.films)
+            {
+                <partial name="_FilmViews" model="films"/>
+            }
+    
+</div>
